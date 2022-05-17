@@ -1,0 +1,52 @@
+.main--contain{
+    max-width:70%
+}
+
+.platitem{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+.platitem--shop--photo{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.platitem--shop--details{
+    width: 70%;
+    padding: 10px;
+    position: relative;
+
+}
+
+.shop--details--star{
+    right: 0px;
+    position: absolute;
+}
+
+.platitem--sample--photo{
+    /* width: 33.33%; */
+    border-radius: 20px;
+    
+}
+
+.platitem--sample--photo img{
+    width: 33.33%;
+    height: 80px;
+    object-fit: cover;
+}
+
+.border-radius-l{
+    border-radius:10px 0px 0px 10px;
+} 
+.border-radius-r{
+    border-radius:0px 10px 10px 0px;
+} 
+
+.pad-10{
+    padding: 10px;
+}
